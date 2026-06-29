@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>鍼灸師・あん摩マッサージ指圧師・柔道整復師・整体師のための3分ニュース ─ e-life</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#15332b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='84'>📰</text></svg>">
+</head>
+<body>
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="brand">
+        <span class="brand-mark">e-life</span>
+        <p class="brand-audience">鍼灸師・あん摩マッサージ指圧師・<br>柔道整復師・整体師のための</p>
+        <h1 class="brand-title">3分ニュース</h1>
+      </div>
+      <p class="brand-tagline" id="tagline">毎日3本だけ、お届けします。</p>
+      <p class="edition" id="edition"></p>
+    </div>
+  </header>
+
+  <!-- Tabs -->
+  <nav class="tabs">
+    <button class="tab active" data-view="today">今日の3本</button>
+    <button class="tab" data-view="weekly">今週の特集</button>
+  </nav>
+
+  <main class="main">
+    <!-- Today -->
+    <section class="view active" id="view-today">
+      <div id="newsList" class="news-list"></div>
+    </section>
+
+    <!-- Weekly -->
+    <section class="view" id="view-weekly">
+      <div id="weekly" class="weekly"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p class="foot-links">
+      <a href="https://e-life.work/" target="_blank" rel="noopener">e-life ブログ</a>
+      <span>・</span>
+      <a href="#" id="podcastLink" target="_blank" rel="noopener">ハリーラジオ</a>
+    </p>
+    <p class="foot-note">毎日3本だけ。続きは、あなたの治療院で。</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

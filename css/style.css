@@ -1,0 +1,157 @@
+:root {
+  --ink: #1c211f;
+  --ink-soft: #54605b;
+  --paper: #f7f5f0;
+  --card: #ffffff;
+  --green: #15332b;
+  --green-mid: #2f8f6b;
+  --gold: #b08a3e;
+  --line: #e6e1d6;
+  --shadow: 0 6px 24px rgba(21, 51, 43, 0.08);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+body {
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* ── Masthead ───────────────────────── */
+.masthead {
+  background: var(--green);
+  color: #fff;
+  padding: calc(env(safe-area-inset-top) + 22px) 20px 22px;
+  text-align: center;
+  border-bottom: 3px solid var(--gold);
+}
+.brand-mark {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 0.28em;
+  color: var(--gold);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.brand-audience {
+  font-size: 12px;
+  color: #cfe3da;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+.brand-title {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+.brand-tagline { font-size: 13px; color: #cfe3da; margin-top: 8px; }
+.edition { font-size: 12px; color: var(--gold); margin-top: 4px; letter-spacing: 0.06em; }
+
+/* ── Tabs ───────────────────────────── */
+.tabs {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+.tab {
+  flex: 1;
+  padding: 14px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: color .2s, border-color .2s;
+}
+.tab.active { color: var(--green); border-bottom-color: var(--green-mid); }
+
+/* ── Views ──────────────────────────── */
+.main { max-width: 640px; margin: 0 auto; padding: 18px 16px 8px; }
+.view { display: none; }
+.view.active { display: block; animation: fade .3s ease; }
+@keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* ── News cards ─────────────────────── */
+.news-list { display: flex; flex-direction: column; gap: 16px; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.card-head { padding: 16px 18px 0; }
+.card-no {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+.card-no b {
+  display: inline-flex;
+  width: 22px; height: 22px;
+  align-items: center; justify-content: center;
+  background: var(--green); color: #fff;
+  border-radius: 50%; font-size: 12px;
+}
+.card-cat {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--green-mid);
+  letter-spacing: 0.08em;
+}
+.card-title {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 6px 18px 0;
+}
+.card-summary { padding: 10px 18px 0; font-size: 14.5px; color: var(--ink); }
+.card-source { padding: 10px 18px 0; }
+.card-source a { font-size: 12px; color: var(--ink-soft); text-decoration: none; }
+.card-source a:after { content: " ↗"; color: var(--green-mid); }
+
+.harry {
+  margin: 14px 18px 18px;
+  background: #f3f6f2;
+  border-left: 3px solid var(--green-mid);
+  border-radius: 0 12px 12px 0;
+  padding: 12px 14px;
+}
+.harry-label { font-size: 12px; font-weight: 700; color: var(--green); margin-bottom: 4px; }
+.harry-text { font-size: 13.5px; color: var(--ink); line-height: 1.65; }
+
+/* ── Weekly ─────────────────────────── */
+.weekly { background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); padding: 22px 20px; }
+.weekly-tag { font-size: 11px; letter-spacing: 0.18em; color: var(--gold); font-weight: 700; }
+.weekly-title { font-family: "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: 21px; margin: 6px 0 12px; }
+.weekly-lead { font-size: 14.5px; color: var(--ink); margin-bottom: 16px; }
+.weekly-points { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.weekly-points li {
+  position: relative; padding-left: 22px; font-size: 14px; color: var(--ink);
+}
+.weekly-points li:before {
+  content: ""; position: absolute; left: 4px; top: 9px;
+  width: 8px; height: 8px; background: var(--green-mid); border-radius: 50%;
+}
+
+/* ── Footer ─────────────────────────── */
+.foot { max-width: 640px; margin: 8px auto 0; padding: 24px 16px calc(28px + env(safe-area-inset-bottom)); text-align: center; }
+.foot-links { font-size: 13px; }
+.foot-links a { color: var(--green); text-decoration: none; font-weight: 600; }
+.foot-links span { color: var(--line); margin: 0 6px; }
+.foot-note { font-size: 12px; color: var(--ink-soft); margin-top: 8px; }

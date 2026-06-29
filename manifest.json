@@ -1,0 +1,21 @@
+{
+  "name": "鍼灸師・あん摩マッサージ指圧師・柔道整復師・整体師のための3分ニュース",
+  "short_name": "3分ニュース",
+  "description": "鍼灸師・あん摩マッサージ指圧師・柔道整復師・整体師のための、1日3本のAI×治療・健康ニュース。e-life",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f5f0",
+  "theme_color": "#15332b",
+  "orientation": "portrait",
+  "lang": "ja",
+  "categories": ["news", "medical", "health"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2315332b'/><text x='50' y='62' font-size='52' text-anchor='middle'>📰</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
