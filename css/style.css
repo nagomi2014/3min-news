@@ -149,6 +149,49 @@ body {
   width: 8px; height: 8px; background: var(--green-mid); border-radius: 50%;
 }
 
+/* ── Back number banner ─────────────── */
+.back-banner {
+  display: none;
+  background: #fff6e6;
+  border: 1px solid #e8d9b0;
+  color: #8a6d2f;
+  font-size: 13px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+.back-banner a { color: var(--green-mid); font-weight: 700; text-decoration: none; }
+
+/* ── Back number list ───────────────── */
+.back-intro { font-size: 13px; color: var(--ink-soft); margin-bottom: 12px; }
+.back-list { display: flex; flex-direction: column; gap: 10px; }
+.back-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 16px 18px;
+  font-size: 15px;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+}
+.back-item:active { background: #f3f6f2; }
+.back-date { font-weight: 600; }
+.back-latest {
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--green-mid);
+  border-radius: 999px;
+  padding: 2px 10px;
+}
+
 /* ── Footer ─────────────────────────── */
 .foot { max-width: 640px; margin: 8px auto 0; padding: 24px 16px calc(28px + env(safe-area-inset-bottom)); text-align: center; }
 .foot-links { font-size: 13px; }

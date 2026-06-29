@@ -30,17 +30,27 @@
   <nav class="tabs">
     <button class="tab active" data-view="today">今日の3本</button>
     <button class="tab" data-view="weekly">今週の特集</button>
+    <button class="tab" data-view="back">バックナンバー</button>
   </nav>
 
   <main class="main">
     <!-- Today -->
     <section class="view active" id="view-today">
+      <div class="back-banner" id="backBanner">
+        過去の号を表示中です ── <a href="#" id="backToLatest">最新号へ戻る</a>
+      </div>
       <div id="newsList" class="news-list"></div>
     </section>
 
     <!-- Weekly -->
     <section class="view" id="view-weekly">
       <div id="weekly" class="weekly"></div>
+    </section>
+
+    <!-- Back numbers -->
+    <section class="view" id="view-back">
+      <p class="back-intro">これまでの号。タップすると読めます。</p>
+      <div id="backList" class="back-list"></div>
     </section>
   </main>
 

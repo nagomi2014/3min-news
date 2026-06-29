@@ -1,30 +1,54 @@
-// 治療家の3分ニュース ─ e-life PWA
-// データは data/news.json を読み込んで描画する（毎日ここを差し替えれば配信）
+// 3分ニュース ─ e-life PWA
+// data/index.json（号の一覧）→ data/editions/<date>.json（各号）を読み込む。
+// 最新号をデフォルト表示し、バックナンバーから過去号も読める。
 
 const PODCAST_URL = "https://open.spotify.com/"; // TODO: ハリーラジオの実URLに差し替え
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-async function load() {
+const getJSON = async (path) => {
+  const res = await fetch(path + "?v=" + Date.now());
+  if (!res.ok) throw new Error(path + " " + res.status);
+  return res.json();
+};
+
+let EDITIONS = []; // [{date, label}] newest first
+let LATEST = null;
+
+async function init() {
   try {
-    const res = await fetch("data/news.json?v=" + Date.now());
-    if (!res.ok) throw new Error("news.json " + res.status);
-    const data = await res.json();
-    render(data);
+    const idx = await getJSON("data/index.json");
+    EDITIONS = idx.editions || [];
+    if (!EDITIONS.length) throw new Error("配信された号がまだありません");
+    LATEST = EDITIONS[0].date;
+    await showEdition(LATEST);
+    renderBackNumbers();
   } catch (e) {
     document.getElementById("newsList").innerHTML =
       `<p style="padding:24px;color:#54605b">ニュースを読み込めませんでした。<br>${esc(e.message)}</p>`;
   }
 }
 
-function render(data) {
+async function showEdition(date) {
+  const data = await getJSON("data/editions/" + date + ".json");
+  renderEdition(data, date);
+}
+
+function renderEdition(data, date) {
   const tagEl = document.getElementById("tagline");
   if (data.tagline && tagEl) tagEl.textContent = data.tagline;
   document.getElementById("edition").textContent = data.edition_label || data.edition || "";
-  document.getElementById("podcastLink").href = PODCAST_URL;
 
-  // Today's 3
+  // 最新でなければ「バックナンバー表示中」バナー
+  const banner = document.getElementById("backBanner");
+  if (date && date !== LATEST) {
+    banner.style.display = "block";
+  } else {
+    banner.style.display = "none";
+  }
+
+  // 今日の3本
   const list = document.getElementById("newsList");
   list.innerHTML = (data.items || []).map((item, i) => `
     <article class="card">
@@ -42,7 +66,7 @@ function render(data) {
     </article>
   `).join("");
 
-  // Weekly
+  // 今週の特集
   const w = data.weekly;
   const wEl = document.getElementById("weekly");
   if (w) {
@@ -52,19 +76,46 @@ function render(data) {
       <p class="weekly-lead">${esc(w.lead)}</p>
       <ul class="weekly-points">${(w.points || []).map((p) => `<li>${esc(p)}</li>`).join("")}</ul>`;
   } else {
-    wEl.innerHTML = `<p style="color:#54605b">今週の特集は準備中です。</p>`;
+    wEl.innerHTML = `<p style="color:#54605b">この号の特集はありません。</p>`;
   }
+}
+
+function renderBackNumbers() {
+  const el = document.getElementById("backList");
+  el.innerHTML = EDITIONS.map((ed, i) => `
+    <button class="back-item" data-date="${esc(ed.date)}">
+      <span class="back-date">${esc(ed.label || ed.date)}</span>
+      ${i === 0 ? '<span class="back-latest">最新</span>' : ""}
+    </button>
+  `).join("");
+  el.querySelectorAll(".back-item").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      await showEdition(btn.dataset.date);
+      switchView("today");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
+}
+
+function switchView(view) {
+  document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("active", t.dataset.view === view));
+  document.querySelectorAll(".view").forEach((v) => v.classList.remove("active"));
+  document.getElementById("view-" + view).classList.add("active");
 }
 
 // Tabs
 document.querySelectorAll(".tab").forEach((tab) => {
   tab.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach((t) => t.classList.remove("active"));
-    document.querySelectorAll(".view").forEach((v) => v.classList.remove("active"));
-    tab.classList.add("active");
-    document.getElementById("view-" + tab.dataset.view).classList.add("active");
+    switchView(tab.dataset.view);
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
+});
+
+// 最新へ戻る
+document.getElementById("backToLatest").addEventListener("click", async (e) => {
+  e.preventDefault();
+  await showEdition(LATEST);
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
 // Service worker
@@ -72,4 +123,4 @@ if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 }
 
-load();
+init();
