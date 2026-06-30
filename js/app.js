@@ -2,8 +2,6 @@
 // data/index.json（号の一覧）→ data/editions/<date>.json（各号）を読み込む。
 // 最新号をデフォルト表示し、バックナンバーから過去号も読める。
 
-const PODCAST_URL = "https://open.spotify.com/"; // TODO: ハリーラジオの実URLに差し替え
-
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
