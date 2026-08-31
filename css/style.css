@@ -6,6 +6,8 @@
   --green: #15332b;
   --green-mid: #2f8f6b;
   --gold: #b08a3e;
+  --green-ink: #287a5b;  /* 白い地に文字として置く緑（--green-mid #2f8f6b は白地で比3.99） */
+  --gold-lit: #be9747;   /* 濃緑の帯の上に置く金（--gold は比4.25） */
   --line: #e6e1d6;
   --shadow: 0 6px 24px rgba(21, 51, 43, 0.08);
 }
@@ -33,7 +35,7 @@ body {
   display: inline-block;
   font-size: 13px;
   letter-spacing: 0.28em;
-  color: var(--gold);
+  color: var(--gold-lit);
   font-weight: 700;
   margin-bottom: 6px;
 }
@@ -51,7 +53,7 @@ body {
   letter-spacing: 0.08em;
 }
 .brand-tagline { font-size: 13px; color: #cfe3da; margin-top: 8px; }
-.edition { font-size: 12px; color: var(--gold); margin-top: 4px; letter-spacing: 0.06em; }
+.edition { font-size: 12px; color: var(--gold-lit); margin-top: 4px; letter-spacing: 0.06em; }
 
 /* ── Tabs ───────────────────────────── */
 .tabs {
@@ -108,9 +110,9 @@ body {
   border-radius: 50%; font-size: 12px;
 }
 .card-cat {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
-  color: var(--green-mid);
+  color: var(--green-ink);
   letter-spacing: 0.08em;
 }
 .card-title {
@@ -196,5 +198,5 @@ body {
 .foot { max-width: 640px; margin: 8px auto 0; padding: 24px 16px calc(28px + env(safe-area-inset-bottom)); text-align: center; }
 .foot-links { font-size: 13px; }
 .foot-links a { color: var(--green); text-decoration: none; font-weight: 600; }
-.foot-links span { color: var(--line); margin: 0 6px; }
+.foot-links span { color: var(--ink-soft); margin: 0 6px; }
 .foot-note { font-size: 12px; color: var(--ink-soft); margin-top: 8px; }
