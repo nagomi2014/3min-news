@@ -1,0 +1,43 @@
+{
+  "edition": "2026-11-21",
+  "edition_label": "2026年11月21日（土）",
+  "tagline": "毎日3本だけ、お届けします。",
+  "items": [
+    {
+      "id": "20261121-01",
+      "category": "鍼灸・東洋医学",
+      "title": "原発性月経困難症への鍼灸関連療法29種をNMAで比較──120RCT/9,571名；ACE（穴位埋線）＋灸が上位；治療中・3ヶ月後ともに西洋薬より有効な傾向；PGE2・PGF2α調節にも効果（Journal of Integrative and Complementary Medicine；Zhao et al.；doi:10.1177/27683605251382169；2026年2月）",
+      "source": "Journal of Integrative and Complementary Medicine（Zhao HY, Jang JH, Ryu YH, Han CH；Acupuncture-Related Therapies for Primary Dysmenorrhea: A Systematic Review and Network Meta-Analysis；doi:10.1177/27683605251382169；2026年2月；32(2):92–116）",
+      "source_url": "https://journals.sagepub.com/doi/abs/10.1177/27683605251382169",
+      "summary": "Zhao et al.（Journal of Integrative and Complementary Medicine；doi:10.1177/27683605251382169；2026年2月）は、原発性月経困難症（PD）に対する鍼灸関連療法29種類の有効性を、韓国・中国ガイドライン準拠のNMAで比較した（120RCT；n=9,571；バイアスリスク全体は低と評価）。VASスコアの改善において、治療中・3ヶ月後フォローアップとも、鍼灸関連療法は西洋薬（NSAIDs等）より有効な傾向が示された。上位に位置した組み合わせは「ACE（穴位埋線）＋灸」「ACE＋カッピング」「指圧＋手鍼」だった。月経困難症と関連するプロスタグランジン（PGE2・PGF2α）の調節にも有効な傾向があった。ただし2つの抄録間で順位のわずかな相違があり、エビデンス確実性の完全な評価には原著の確認が推奨される。",
+      "harry_take": "月経困難症でお悩みの患者さんに「鍼灸を試したい」と言われたとき、29種類の鍼灸関連療法を120本のRCTで比較したNMAが発表されています、という一言が会話の出発点になります🦔 ACE（埋線）＋灸が上位とはいえ、自院で提供している術式で丁寧に経過を見ることが実践的。「西洋薬より治る」等の断定表現は避けて、「エビデンスが蓄積されている分野のひとつです」という形で伝えましょう。"
+    },
+    {
+      "id": "20261121-02",
+      "category": "手技・徒手療法",
+      "title": "膝OAに運動療法＋手技療法の「上乗せ効果」をSR&MAで検証──即時・短中期の疼痛・機能改善に付加的効果；長期では維持されず；エビデンス確実性は「非常に低い」（European Journal of Pain；doi:10.1002/ejp.70397；2026年10月）",
+      "source": "European Journal of Pain（Additional Effects of Manual Therapy to Exercise on Pain and Function in Individuals With Knee Osteoarthritis: A Systematic Review and Meta‐Analysis；doi:10.1002/ejp.70397；2026年10月；PMC13673287）",
+      "source_url": "https://onlinelibrary.wiley.com/doi/10.1002/ejp.70397",
+      "summary": "European Journal of Pain（doi:10.1002/ejp.70397；2026年10月）に掲載されたSR&MAは、膝変形性関節症（膝OA）への運動療法に手技療法を追加した場合の付加的効果を検討した（6データベースを2026年5月まで検索；RCT限定；ランダム効果モデル）。即時・短期・中期フォローアップにおいて疼痛および機能の改善に手技療法追加の有意な上乗せ効果が確認されたが、長期フォローアップでは効果の持続は認められなかった。著者らはエビデンスの確実性を「非常に低い（very low certainty）」と評価しており、結果の解釈には慎重さが必要と結論している。同時期の別の二次解析（Arthritis Care & Research；2026年）では、患者の治療期待値が手技療法の追加効果を調節しないことも示されている。",
+      "harry_take": "膝OAの患者さんに「運動と手技療法を組み合わせる意味はありますか？」と聞かれたら、「短期的な疼痛・機能改善への上乗せ効果が出ているSR&MAはありますが、長期での維持は不明確という結果です」と正直に伝えられます🦔 「確実性は非常に低い」は『効果なし』ではなく『研究が不十分』という意味。患者さんと短期目標を共有しながら1〜2週ごとに効果を評価するプロセスが、エビデンスに誠実な臨床実践につながります。"
+    },
+    {
+      "id": "20261121-03",
+      "category": "スポーツ医学・運動",
+      "title": "競技持久系アスリートのリカバリー6モダリティを16RCT/273名のNMAで比較──冷水浴・全身冷却・マッサージ・加圧等いずれも「受動的回復（安静）」と有意差なし（Frontiers in Sports and Active Living；Jin et al.；doi:10.3389/fspor.2026.1876924；2026年8月）",
+      "source": "Frontiers in Sports and Active Living（Jin et al.；Physical recovery modalities in competitive and elite endurance athletes: a systematic review and network meta-analysis finding limited evidence of benefit over passive recovery；doi:10.3389/fspor.2026.1876924；2026年8月）",
+      "source_url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1876924/full",
+      "summary": "Jin et al.（Frontiers in Sports and Active Living；doi:10.3389/fspor.2026.1876924；2026年8月）は、競技・エリートレベルの持久系アスリートを対象に、6種類の身体的リカバリー介入の有効性をネットワークメタアナリシス（NMA）で検討した（16RCT；n=273；2026年4月1日まで検索；PubMed・Embase・CENTRAL・Web of Science）。比較した介入は冷水浴（CWI）・全身冷却療法（WBC）・アクティブリカバリー・手動マッサージ・加圧ガーメント・神経筋電気刺激（NMES）の6種で、受動的回復（安静）を対照とした8アウトカム・47比較のいずれにおいても、いずれの介入も受動的回復を有意に上回る効果は示されなかった。一部モダリティ（マッサージ・間欠的空気圧縮）はデータ不足によりネットワーク内の効果推定が不完全だった。著者らは「持久系アスリートにおけるリカバリーモダリティの有益性を支持するエビデンスは現時点では限定的」と結論づけている。",
+      "harry_take": "競技者や学生アスリートから「アイスバスやマッサージはやった方がいい？」と聞かれたとき、このNMAは「どれも安静と大差ない」という結果です🦔 ただしこれは「やらなくていい」ではなく、睡眠・食事・水分補給という基本リカバリーを整えたうえで、各選手が主観的に楽に感じる方法を組み合わせる個別対応が実践的という示唆でもあります。副作用が低い方法であれば、選手が「気持ちよい」と感じることも十分な理由になります。"
+    }
+  ],
+  "weekly": {
+    "title": "今週の視点：11/21（土）──月経困難症NMA・膝OA手技療法SR&MA・アスリートリカバリーNMAで「東洋医学×手技臨床×スポーツ科学」を深める",
+    "lead": "今週（11/16-22）は7カテゴリをバランスよく網羅し、本日（11/21）は鍼灸・東洋医学（原発性月経困難症への鍼灸関連療法NMA；120RCT/9,571名；Zhao et al.；doi:10.1177/27683605251382169；J Integrative and Complementary Medicine；2026年2月）・手技・徒手療法（膝OAへの運動＋手技療法上乗せ効果SR&MA；doi:10.1002/ejp.70397；European Journal of Pain；2026年10月）・スポーツ医学・運動（持久系競技アスリートのリカバリーNMA；16RCT/273名；doi:10.3389/fspor.2026.1876924；Frontiers Sports Active Living；2026年8月）の3本で締める。",
+    "points": [
+      "鍼灸関連療法29種を120RCTで比較したNMAは、ACE（埋線）＋灸等の組み合わせが治療中・3ヶ月後ともにVAS改善で上位。西洋薬（NSAIDs等）との比較では有利な傾向もあるが、術式・穴位の標準化とエビデンス確実性評価の完全な開示が今後の課題（Zhao et al.；J Integrative and Complementary Medicine；2026年2月）",
+      "膝OAへの手技療法追加は即時〜中期の疼痛・機能改善に付加的効果が確認されたが、長期での維持は不明確でエビデンス確実性は「非常に低い」。患者との目標設定と定期的な効果評価が誠実な臨床実践につながる（doi:10.1002/ejp.70397；European Journal of Pain；2026年10月）",
+      "競技持久系アスリートのリカバリー介入（冷水浴・マッサージ等6種）は受動的回復と有意差なし。睡眠・食事・水分補給という基本の徹底が先決で、追加モダリティは選手個人の主観的快適性を重視した選択が現実的（Jin et al.；Frontiers Sports Active Living；doi:10.3389/fspor.2026.1876924；2026年8月）"
+    ]
+  }
+}
