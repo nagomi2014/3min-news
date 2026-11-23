@@ -1,0 +1,43 @@
+{
+  "edition": "2026-11-24",
+  "edition_label": "2026年11月24日（火）",
+  "tagline": "毎日3本だけ、お届けします。",
+  "items": [
+    {
+      "id": "20261124-01",
+      "category": "柔道整復・外傷",
+      "title": "慢性足関節不安定性アスリートへのリハビリ介入を13RCT/490名のSRで整理──固有感覚・神経筋・機能的バランストレーニングすべて有効、2017-2025年知見をPRISMAで統合（J Clin Med; Skwiot; doi:10.3390/jcm15010220; 2025年12月）",
+      "source": "Journal of Clinical Medicine（Skwiot M；A Systematic Review of Rehabilitation Interventions for Athletes with Chronic Ankle Instability；doi:10.3390/jcm15010220；2025年12月27日；PMC12786792）",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12786792/",
+      "summary": "Skwiot（J Clin Med；doi:10.3390/jcm15010220；2025年12月27日）は、慢性足関節不安定性（CAI）を持つアスリートを対象としたリハビリテーション介入の有効性を、2017〜2025年発表の13件のRCT（490名）を統合した系統的レビュー（PRISMA準拠）で検討した。固有感覚トレーニング・神経筋トレーニング・機能的バランストレーニングを含む介入はいずれも、CAIの機能的アウトカム（星状伸展バランステスト・CAIT・FAAMスコア等）の有意な改善と関連していた。著者らは現在のエビデンスがリハビリ介入のCAI改善への有効性を支持すると結論した。ただしテーピング・装具単独介入・術後リハは除外されており、どのプロトコルが最も効果的かを比較する直接的研究は限られているため、最適な内容・負荷量は今後の研究課題とされている。",
+      "harry_take": "CAI（慢性足関節不安定性）はスポーツ選手が接骨院を訪れる典型的な主訴のひとつです🦔 490名分の13RCTを統合したSRが「固有感覚・神経筋・機能的リハはどれも有効」と結論しました。硬さは強さより速さで戻る──テーピング固定に頼るだけでなく、早期から固有感覚トレーニングを加えることが再受傷予防と競技復帰の質を高めます。"
+    },
+    {
+      "id": "20261124-02",
+      "category": "栄養・食事",
+      "title": "60歳以上の慢性筋骨格痛高齢者へクリルオイル4g/日を12週間投与のパイロットRCT──疼痛強度・疼痛部位数に改善傾向、安全性・忍容性は良好（J Nutr; Tamargo et al.; doi:10.1016/j.tjnut.2026.101517; 2026年4月）",
+      "source": "The Journal of Nutrition（Tamargo JA et al.；Pilot Randomized Controlled Trial of Krill Oil Supplementation for Chronic Musculoskeletal Pain in Older Adults；doi:10.1016/j.tjnut.2026.101517；2026年4月1日；PMC13249115）",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13249115/",
+      "summary": "Tamargo et al.（J Nutr；doi:10.1016/j.tjnut.2026.101517；2026年4月1日）は、慢性筋骨格痛を有する60歳以上の高齢者40名を対象に、クリルオイル（4g/日；EPA＋DHA 1,288mg/日＋アスタキサンチン0.45mg含有）とプラセボ（野菜油）を12週間二重盲検RCTで比較した。クリルオイル群では血中オメガ3脂肪酸レベルが有意に上昇し、疼痛強度・疼痛部位数に改善傾向が示された。有害事象の報告はなく、安全性・忍容性は良好と評価された。著者らはこれを予備的所見と位置づけ、日常機能への影響を明確にするためにより大規模・長期間の試験が必要と述べている。本研究はクリルオイルメーカー（Aker BioMarine社）との共同研究であり、利益相反の観点からも結果解釈には注意が求められる。",
+      "harry_take": "「魚の油は身体にいい」は患者さんからよく聞きますが、このパイロットRCTはクリルオイルが高齢者の慢性痛に改善傾向をもたらすという初期的なデータを示しました🦔 n=40の予備試験で統計的有意差の確認には大規模試験が必要ですが、「青背の魚を週2〜3回」というオメガ3の食事指導の裏付けにはなります。「クリルオイルで痛みが治る」とは言えない段階ですので、栄養面からのアプローチを患者さんに伝える際の補助的な話題として活用しましょう。"
+    },
+    {
+      "id": "20261124-03",
+      "category": "AI×治療院経営",
+      "title": "ChatGPT・DeepSeekが生成した鍼灸プロトコルをTCM専門医と比較──AIは経穴選択の知識符号化に優れるが個別化・言語間一貫性に課題（JMIR Formative Research; Liu＆Guo; doi:10.2196/95851; 2026年）",
+      "source": "JMIR Formative Research（Xin Liu, Zining Guo；Comparative Evaluation of ChatGPT, DeepSeek, and Physician-Generated Acupuncture Treatment Protocols Across Chinese and English Language Settings；doi:10.2196/95851；2026年）",
+      "source_url": "https://formative.jmir.org/2026/1/e95851",
+      "summary": "Liu＆Guo（JMIR Formative Research；doi:10.2196/95851；2026年）は、鍼灸治療プロトコルの生成においてChatGPTとDeepSeekの2大言語モデル（LLM）と上級TCM医師の出力を比較した横断的評価研究を行った。Acupuncture in Medicine誌の標準症例を中国語・英語で入力し、上級TCM医師が生成プロトコルの妥当性・臨床的有効性を評価した。AIは体系的な経穴選択や明示的な鍼灸知識の符号化には優れるが、個別化治療の適用と言語間の一貫性に課題があることが示された。DeepSeekは中国語設定で、ChatGPTは英語設定でより良好な成績を示した。著者らは、バイリンガル訓練コーパスの強化と証候特化型推論モジュールの開発がAI鍼灸の臨床応用改善につながると提言した。",
+      "harry_take": "「ChatGPTに鍼灸の治療計画を聞いたら結構まともだった」という声を現場でも聞くようになりましたが、このJMIR研究がその理由と限界を教えてくれます🦔 AIは『知識の引き出し』は得意でも、『目の前の患者さんへの個別化』が苦手──だからこそ施術家の問診・触診・観察の力が引き続き価値を持ちます。AIを院のブログ素材や患者向け説明文の下書きに使う『補助ツール』として活用するのが、まず現実的な一歩です。"
+    }
+  ],
+  "weekly": {
+    "title": "今週の視点：11/24（火）──柔道整復・外傷・栄養・食事・AI×治療院経営の新知見で火曜を開く",
+    "lead": "11/23（月）号の鍼灸×不眠NMA・胸椎マニピュレーションMA・スポーツ膝外傷SRに続き、11/24（火）号は柔道整復・外傷（慢性足関節不安定性リハビリSR；13RCT/490名；Skwiot；doi:10.3390/jcm15010220；J Clin Med；2025年12月）・栄養・食事（クリルオイルの慢性筋骨格痛パイロットRCT；40名；Tamargo et al.；doi:10.1016/j.tjnut.2026.101517；J Nutr；2026年4月）・AI×治療院経営（ChatGPT・DeepSeekの鍼灸プロトコル比較評価；Liu＆Guo；doi:10.2196/95851；JMIR Formative Research；2026年）の3本を配信した。",
+    "points": [
+      "CAIアスリート対象の13RCT（490名）を統合したSRが、固有感覚・神経筋・機能的バランストレーニングいずれもCAI改善に有効と結論。テーピング・装具固定に加え、早期からのリハビリ介入が再受傷予防の鍵（Skwiot；J Clin Med；doi:10.3390/jcm15010220；2025年12月）",
+      "高齢者慢性筋骨格痛へのクリルオイル12週間パイロットRCT（n=40）が疼痛強度・疼痛部位数に改善傾向を報告。予備試験であり断定的な推奨には至らないが、オメガ3を食事指導の補助的話題として活用する参考資料として有用（Tamargo et al.；J Nutr；doi:10.1016/j.tjnut.2026.101517；2026年4月）",
+      "ChatGPT・DeepSeekの鍼灸プロトコル生成研究が、AIは経穴知識の符号化に優れるが個別化・言語間一貫性が課題と示した。施術家の問診・触診力の価値を再確認しつつ、AIをブログ素材や説明文の補助ツールとして活用するアプローチが現実的（Liu＆Guo；JMIR Formative Research；doi:10.2196/95851；2026年）"
+    ]
+  }
+}
