@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>施術家のための3分ニュース</title>
+<link>https://nagomi2014.github.io/3min-news/</link>
+<atom:link href="https://nagomi2014.github.io/3min-news/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+<language>ja</language>
+<copyright>© 矢上真吾</copyright>
+<description>鍼灸師・あん摩マッサージ指圧師・柔道整復師・整体師のための3分ニュース。毎日3本だけ、施術家の仕事に関わるニュースを選び、「何が分かったか」「この話で言えること・言えないこと」「現場でどう使うか」をお伝えします。
+
+鍼灸・東洋医学／手技・徒手療法／柔道整復・外傷／スポーツ医学・運動／栄養・食事／AI×治療院経営／集客・業界トレンド。
+・数字と言い回しは、元の論文・発表で確かめてからお話しします
+・出どころ（雑誌・DOI・発表元）は各回の説明とアプリに
+
+内容は施術家の学びのためのもので、特定の施術の効果を保証するものではありません。
+※この番組の声はAI（合成音声）です。YouTubeの長い動画と同じ音声です。
+
+毎朝3本だけ届くアプリ（無料） → https://nagomi2014.github.io/3min-news/
+作り手：鍼灸あん摩マッサージ指圧師 矢上真吾（e-life ひとり治療院のAI自立化サポート）</description>
+<itunes:summary>鍼灸師・あん摩マッサージ指圧師・柔道整復師・整体師のための3分ニュース。毎日3本だけ、施術家の仕事に関わるニュースを選び、「何が分かったか」「この話で言えること・言えないこと」「現場でどう使うか」をお伝えします。
+
+鍼灸・東洋医学／手技・徒手療法／柔道整復・外傷／スポーツ医学・運動／栄養・食事／AI×治療院経営／集客・業界トレンド。
+・数字と言い回しは、元の論文・発表で確かめてからお話しします
+・出どころ（雑誌・DOI・発表元）は各回の説明とアプリに
+
+内容は施術家の学びのためのもので、特定の施術の効果を保証するものではありません。
+※この番組の声はAI（合成音声）です。YouTubeの長い動画と同じ音声です。
+
+毎朝3本だけ届くアプリ（無料） → https://nagomi2014.github.io/3min-news/
+作り手：鍼灸あん摩マッサージ指圧師 矢上真吾（e-life ひとり治療院のAI自立化サポート）</itunes:summary>
+<itunes:author>矢上真吾</itunes:author>
+<itunes:owner><itunes:name>矢上真吾</itunes:name><itunes:email>nagomi2014@gmail.com</itunes:email></itunes:owner>
+<itunes:image href="https://nagomi2014.github.io/3min-news/podcast/artwork.jpg"/>
+<image><url>https://nagomi2014.github.io/3min-news/podcast/artwork.jpg</url><title>施術家のための3分ニュース</title><link>https://nagomi2014.github.io/3min-news/</link></image>
+<itunes:category text="Health &amp; Fitness"><itunes:category text="Medicine"/></itunes:category>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+</channel>
+</rss>
