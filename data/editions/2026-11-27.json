@@ -1,0 +1,43 @@
+{
+  "edition": "2026-11-27",
+  "edition_label": "2026年11月27日（金）",
+  "tagline": "毎日3本だけ、お届けします。",
+  "items": [
+    {
+      "id": "20261127-01",
+      "category": "手技・徒手療法",
+      "title": "筋膜マニピュレーション（Stecco法）の疼痛改善効果を15RCTのSR&MAで検証──ES=−0.80（95%CI −1.30〜−0.29）とアクティブ対照比で有意差も、GRADEはVery Lowと判定（J Man Manip Ther; Trybulski et al.; doi:10.1080/10669817.2025.2486110; 2026年）",
+      "source": "Journal of Manual & Manipulative Therapy（Trybulski et al.；The effects of fascial manipulation on pain: a systematic review with meta-analysis；doi:10.1080/10669817.2025.2486110；PubMed PMID:40159109；PMC13061079；2026年）",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40159109/",
+      "summary": "Trybulski et al.（Journal of Manual & Manipulative Therapy；doi:10.1080/10669817.2025.2486110；PMID:40159109；2026年）は、Steccoの筋膜マニピュレーション（FM）が疼痛に与える効果を系統的レビュー＆メタ分析で検討した。初期138件から15件のRCTを選定し、疼痛アウトカムを対象とした10研究（507名）をプールした。アクティブ対照群との比較では効果量ES=−0.80（95%CI −1.30〜−0.29；p=0.002）と統計的に有意な疼痛軽減効果が示された。一方、異質性は高く（I²=85%）、GRADEエビデンス確実性はVery Lowと判定された。著者らはサンプルサイズの小ささ・盲検化の困難・介入のばらつきを主な限界として挙げ、より大規模な厳密な試験が必要と結論付けた。",
+      "harry_take": "筋膜マニピュレーションがアクティブ対照比で有意な疼痛軽減効果（ES=−0.80）を示したという報告は、現場での手応えを言語化する根拠として使えそうです🦔 ただしGRADEはVery Lowなので、患者さんへの説明では『研究では筋膜へのアプローチで疼痛軽減効果が出た報告があります』と事実ベースで伝えるのが誠実な伝え方です。"
+    },
+    {
+      "id": "20261127-02",
+      "category": "柔道整復・外傷",
+      "title": "腱板関連肩痛（RCRSP）への運動療法は受動的保存療法に比べ短期成績で優位性なし──23RCT/1,643名のSR&MAで効果量のCIがゼロ跨ぎ・エビデンス確実性Very Low〜Low（Musculoskeletal Science and Practice; doi:10.1016/j.msksp.2026.103556; 2026年4月）",
+      "source": "Musculoskeletal Science and Practice（Effectiveness of exercise therapy versus passive conservative treatments for rotator cuff-related shoulder pain: a systematic review and meta-analysis of randomized controlled trials；doi:10.1016/j.msksp.2026.103556；Vol.83, Article 103556；2026年4月公開）",
+      "source_url": "https://doi.org/10.1016/j.msksp.2026.103556",
+      "summary": "Musculoskeletal Science and Practice（doi:10.1016/j.msksp.2026.103556；Vol.83, Article 103556；2026年4月）掲載のSR&MAは、腱板関連肩痛（RCRSP）に対する運動療法と受動的保存療法（超音波・電気刺激・注射等）の短期成績を比較した。23件のRCT（1,643名）を選定し、うち19研究（1,349名）をメタ分析に組み入れた結果、疼痛および機能障害の信頼区間はいずれもゼロを跨ぎ、運動療法が受動的保存療法より優れているとは言えないと結論付けた。エビデンスの確実性はVery Low〜Lowと評価された。著者らは、現時点では運動療法の「短期的優位性」を示す十分なエビデンスはなく、両アプローチを組み合わせることを否定するものではないと述べた。",
+      "harry_take": "腱板関連肩痛では運動療法が第一選択とされますが、今回のメタ分析では短期では受動的治療との有意差がないという結果です🦔 どちらかが明確に優れるとは言いにくく、患者さんの状態に応じて運動指導と徒手療法・物理療法を柔軟に組み合わせる現行の方針を、エビデンスの限界も踏まえながら続けるのが現実的といえそうです。"
+    },
+    {
+      "id": "20261127-03",
+      "category": "栄養・食事",
+      "title": "オメガ3脂肪酸補給が慢性疼痛を中等度改善──SR&MA（SMD=−0.55、95%CI −0.76〜−0.34）・RA・片頭痛・混合慢性疼痛で有意、変形性関節症では有意差なし（Frontiers in Medicine; Xie et al.; doi:10.3389/fmed.2025.1654661; 2025年11月）",
+      "source": "Frontiers in Medicine（Xie et al.；Effects of omega-3 fatty acids on chronic pain: a systematic review and meta-analysis；doi:10.3389/fmed.2025.1654661；PMC12627051；2025年11月5日）",
+      "source_url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1654661/full",
+      "summary": "Xie et al.（Frontiers in Medicine；doi:10.3389/fmed.2025.1654661；PMC12627051；2025年11月5日）は、オメガ3脂肪酸補給が慢性疼痛に与える効果をランダム化比較試験のみを対象としたSR&MAで検討した。プールされた疼痛強度のSMDは−0.55（95%CI −0.76〜−0.34）と中等度の有意な軽減効果を示したが、異質性は高かった（I²=87%）。疾患別では関節リウマチ（RA）・片頭痛・混合慢性疼痛で有意な効果が確認された一方、変形性関節症（OA）および乳房痛（mastalgia）では有意差は認められなかった。著者らはアウトカム指標の標準化・用量最適化・長期追跡による研究の必要性を指摘した。",
+      "harry_take": "青魚や亜麻仁油由来のオメガ3が慢性疼痛に中等度の改善報告がある（SMD=−0.55）という知見は、食事指導の際の根拠として使えそうです🦔 ただしOAでは有意差なし・異質性も高いので万能ではありません。RAや片頭痛の患者さんへは『青魚の摂取でつらさが和らいだ研究報告があります』という程度の伝え方で、食習慣アドバイスのひとつとして取り入れてみてください。"
+    }
+  ],
+  "weekly": {
+    "title": "今週の視点：11/27（金）──手技・徒手療法・柔道整復・外傷・栄養・食事の新知見で金曜を開く",
+    "lead": "11/26（木）号のスポーツ医学・運動（運動介入うつ・不安症状アンブレラレビュー；Munro et al.；doi:10.1136/bjsports-2025-110301；British Journal of Sports Medicine；2026年2月）・鍼灸・東洋医学（脳卒中後嚥下障害への鍼灸＋リハビリNMA；Pei et al.；doi:10.3389/fneur.2026.1956095；Frontiers in Neurology；2026年11月）・AI×治療院経営（OTセラピー記録AI自動生成パイロット；DiMaio et al.；doi:10.2196/73274；JMIR AI；2026年5月）に続き、11/27（金）号は手技・徒手療法（筋膜マニピュレーション SR&MA；Trybulski et al.；doi:10.1080/10669817.2025.2486110；J Man Manip Ther；2026年）・柔道整復・外傷（腱板関連肩痛への運動療法vs受動的保存療法 SR&MA；doi:10.1016/j.msksp.2026.103556；Musculoskeletal Science and Practice；2026年4月）・栄養・食事（オメガ3脂肪酸と慢性疼痛 SR&MA；Xie et al.；doi:10.3389/fmed.2025.1654661；Frontiers in Medicine；2025年11月）の3本を配信した。",
+    "points": [
+      "筋膜マニピュレーション（Stecco法）の15RCT SR&MAでES=−0.80とアクティブ対照比で有意な疼痛軽減効果が示されたが、GRADEはVery Low。現場での施術根拠として『効果が出た報告がある』という事実ベースの伝え方が重要（Trybulski et al.；J Man Manip Ther；doi:10.1080/10669817.2025.2486110；2026年）",
+      "腱板関連肩痛（RCRSP）への運動療法は23RCT/1,643名のSR&MAで受動的保存療法比の短期成績に有意差なし（エビデンス確実性VL〜Low）。どちらかが明確に優れるとは言えず、患者の状態に応じた組み合わせアプローチ選択が示唆された（doi:10.1016/j.msksp.2026.103556；Musculoskeletal Science and Practice；2026年4月）",
+      "オメガ3脂肪酸補給がRA・片頭痛・混合慢性疼痛でSMD=−0.55の中等度疼痛軽減効果（I²=87%）。OAでは有意差なし。食事指導の根拠情報として青魚摂取などのアドバイスに活用可能（Xie et al.；Frontiers in Medicine；doi:10.3389/fmed.2025.1654661；2025年11月）"
+    ]
+  }
+}
