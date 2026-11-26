@@ -200,3 +200,12 @@ body {
 .foot-links a { color: var(--green); text-decoration: none; font-weight: 600; }
 .foot-links span { color: var(--ink-soft); margin: 0 6px; }
 .foot-note { font-size: 12px; color: var(--ink-soft); margin-top: 8px; }
+
+/* 母艦の帯（nagomi-project apps/_mothership.py と同じ形・2026-11-26） */
+.ms-band{margin:32px auto 0;padding:24px 16px 28px;border-top:1px solid rgba(0,0,0,.14);text-align:center}
+.ms-band .ms-h{margin:0 0 14px;font-weight:700;font-size:16px;line-height:1.6}
+.ms-band .ms-btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:760px;margin:0 auto}
+.ms-band a.ms-btn{display:inline-block;padding:11px 18px;border:1px solid #15332b;border-radius:var(--radius,6px);color:#15332b;text-decoration:none;font-size:15px;line-height:1.4}
+.ms-band a.ms-btn.main{border-width:2px;font-weight:700}
+.ms-band a.ms-btn:hover{opacity:.75}
+.ms-band .ms-note{margin:12px auto 0;max-width:620px;font-size:13px;line-height:1.7;opacity:.75}

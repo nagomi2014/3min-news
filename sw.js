@@ -1,6 +1,6 @@
 // 3分ニュース ─ Service Worker
 // シェル（HTML/CSS/JS）はキャッシュ優先。号の一覧と各号は network-first で最新を取りに行く。
-const CACHE = "3min-news-v3";
+const CACHE = "3min-news-v4";
 const SHELL = ["./", "./index.html", "./css/style.css", "./js/app.js", "./manifest.json"];
 
 self.addEventListener("install", (e) => {
