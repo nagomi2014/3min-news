@@ -1,0 +1,43 @@
+{
+  "edition": "2026-11-28",
+  "edition_label": "2026年11月28日（土）",
+  "tagline": "毎日3本だけ、お届けします。",
+  "items": [
+    {
+      "id": "20261128-01",
+      "category": "鍼灸・東洋医学",
+      "title": "三才配穴鍼治療が原発性不眠症に有効──RCT（n=76）で入眠潜時短縮・血清5-HT/BDNF上昇、偽鍼と有意差（Nature and Science of Sleep；Zhao et al.；doi:10.2147/NSS.S590127；PMID:42038446；2026年4月）",
+      "source": "Nature and Science of Sleep（Zhao et al.；Acupuncture with the Sancai Acupoint Matching Method for Primary Insomnia: A Randomized Controlled Trial；doi:10.2147/NSS.S590127；PMID:42038446；PMC:PMC13109983；2026年4月）",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42038446/",
+      "summary": "Zhao et al.（Nature and Science of Sleep；doi:10.2147/NSS.S590127；PMID:42038446；2026年4月）は、三才配穴法を用いた鍼治療が原発性不眠症に与える効果をRCTで検討した。上海中医薬大学岳陽病院で76名を実鍼群（38名）と偽鍼群（38名）に無作為割付し、8週間治療を実施。実鍼群では睡眠時間延長・入眠潜時短縮・中途覚醒減少が確認された。血清セロトニン（5-HT）は実鍼群で77.06→101.91 ng/mL（偽鍼群76.16→87.07 ng/mL）と有意に上昇し、BDNFは実鍼群でのみ有意増加・偽鍼群では変化なしと報告された。著者らは測定は末梢バイオマーカーに留まり中枢神経系作用の断定はできないと限界を述べた。",
+      "harry_take": "三才配穴（天・人・地に対応する配穴理論）に基づく鍼治療がRCTで不眠症状の改善と血清セロトニン・BDNF上昇を示したというのは現場として興味深い報告です🦔 末梢指標の測定であり単一施設・少人数試験なので、患者さんへは『鍼でよく眠れるようになったという研究報告があります』という事実ベースの伝え方が誠実です。"
+    },
+    {
+      "id": "20261128-02",
+      "category": "スポーツ医学・運動",
+      "title": "術前運動プレハビリテーションが体力・QOL改善と周術期機能低下抑制に有効──がん手術27RCT/2,005名のSR&MAで結論（Journal of Cancer Survivorship；PMID:42667547；2026年1月）",
+      "source": "Journal of Cancer Survivorship（Prehabilitative exercise in patients undergoing oncologic surgery: a systematic review and meta-analysis；PMID:42667547；2026年1月；ECU Research Online：ro.ecu.edu.au/ecuworks2022-2026/8951）",
+      "source_url": "https://ro.ecu.edu.au/ecuworks2022-2026/8951",
+      "summary": "Journal of Cancer Survivorship（PMID:42667547；2026年1月）掲載のSR&MAは、がん手術患者への術前運動介入（プレハビリテーション）の効果を27件のRCT（n=2,005）で検討した。3段階混合効果メタ分析の結果、術前運動介入は体力・身体機能・疲労感・QOLを有意に改善し、周術期機能低下を軽減することが示された。モデレーター解析では、研究レベルの調整因子が個別患者レベルの効果修飾因子とは一致しないことが明らかになり、恩恵が大きい患者の特定には個別評価が重要と結論付けた。著者らはプレハビリテーション研究の標準化と個別化モデルの構築を今後の課題として挙げた。",
+      "harry_take": "『手術前だから安静』ではなく、術前から運動介入で予備能を高めるプレハビリテーションがエビデンスでも支持されています🦔 整形外科手術前の患者さんと接する機会がある施術家には、連携先への情報提供や術前コンディショニングの視点として参考になる知見です。どの患者に効果があるかは個別評価が肝という結論も、現場感覚と重なります。"
+    },
+    {
+      "id": "20261128-03",
+      "category": "集客・業界トレンド",
+      "title": "AI検索時代の治療院集客──LLMOとは何か、整骨院・鍼灸院が今押さえる3つの基礎（Uravation；整骨院・整体院のLLMO対策；2026年）",
+      "source": "Uravation（整体・整骨院のLLMO対策｜AI検索で選ばれる院の具体的な方法；2026年；https://uravation.com/llmo/seikotsuin-seitai-llmo-taisaku/）",
+      "source_url": "https://uravation.com/llmo/seikotsuin-seitai-llmo-taisaku/",
+      "summary": "LLMO（Large Language Model Optimization）は、ChatGPTやGeminiなどのAI検索が「回答」を生成する際に自院を引用・推薦されるよう情報設計する集客概念。業界調査によるとGoogle AI Overviewsの出現率は2025年5月の約9%から11月には約32%へ急上昇したとされ、集客の軸が「検索順位」から「AIに引用される情報品質」へシフトしつつある。整骨院・鍼灸院固有の課題として、広告表現の適正化（柔道整復師法・医療広告ガイドライン準拠）・保険適用範囲の正確な記述・業態の明確な区別が前提として挙げられる。具体策は定義文の明確化・FAQ形式での情報整理・構造化データ整備・自院一次情報の発信・外部サイトからの言及獲得の5点が基礎とされる。",
+      "harry_take": "SEOでクリックされる時代から、AIに『この院は信頼できる』と判断・引用される時代への転換が進んでいます🦔 まず広告表現の適正化と院の公式情報を正確に整える地道な作業が、AI検索時代にも集客の土台になるというのは現場感覚としても納得感があります。難しく考える前に、今の公式サイトの情報が正確かどうかを見直すところから始めてみてください。"
+    }
+  ],
+  "weekly": {
+    "title": "今週の視点：11/28（土）──鍼灸・東洋医学・スポーツ医学・集客の3テーマで土曜を締める",
+    "lead": "11/26（木）号はスポーツ医学・運動（運動介入うつ・不安症状アンブレラレビュー；Munro et al.；British Journal of Sports Medicine）・鍼灸・東洋医学（脳卒中後嚥下障害への鍼灸＋リハビリNMA；Pei et al.；Frontiers in Neurology）・AI×治療院経営（OTセラピー記録AI自動生成パイロット；DiMaio et al.；JMIR AI）、11/27（金）号は手技・徒手療法（筋膜マニピュレーション SR&MA；Trybulski et al.；J Man Manip Ther；doi:10.1080/10669817.2025.2486110）・柔道整復・外傷（腱板関連肩痛への運動療法vs受動的保存療法 SR&MA；doi:10.1016/j.msksp.2026.103556；Musculoskeletal Science and Practice）・栄養・食事（オメガ3脂肪酸と慢性疼痛 SR&MA；Xie et al.；Frontiers in Medicine；doi:10.3389/fmed.2025.1654661）を配信した。11/28（土）号は鍼灸・東洋医学（三才配穴鍼×原発性不眠症 RCT；Zhao et al.；Nature and Science of Sleep；doi:10.2147/NSS.S590127；2026年4月）・スポーツ医学・運動（術前運動プレハビリテーション SR&MA；J Cancer Survivorship；PMID:42667547；2026年1月）・集客・業界トレンド（LLMO＝AI検索最適化と治療院集客；Uravation；2026年）の3本で今週を締めた。",
+    "points": [
+      "三才配穴法に基づく鍼治療がRCT（n=76）で原発性不眠症の睡眠改善と血清5-HT/BDNF上昇を示した（偽鍼比有意差あり）。末梢バイオマーカー測定に留まるため中枢機序は断定できないが、不眠症患者への鍼治療説明の根拠情報として使える報告（Zhao et al.；NSS；doi:10.2147/NSS.S590127；2026年4月）",
+      "がん手術患者への術前運動介入が27RCT/2,005名のSR&MAで体力・QOL改善・周術期機能低下抑制を示した。研究レベルの調整因子≠患者レベルの効果修飾因子という知見は、個別化評価の重要性を示唆（J Cancer Survivorship；PMID:42667547；2026年1月）",
+      "AI検索（Google AI Overviews）出現率の急上昇（約9%→32%、2025年5〜11月）を背景に、治療院集客はLLMO（AI検索最適化）が注目トピックに。広告表現適正化・公式情報の正確な整備が前提となる基礎施策が重要（Uravation；2026年）"
+    ]
+  }
+}
